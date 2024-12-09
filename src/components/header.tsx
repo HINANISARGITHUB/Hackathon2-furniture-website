@@ -72,19 +72,19 @@ const Navbar = () => {
         <div className="container mx-auto flex justify-between items-center">
           {/* Links */}
           <div className="flex space-x-6 font-thin text-gray-700">
-            <a href="#" className="hover:text-teal-600">
+            <a href="/" className="hover:text-teal-600">
               Home
             </a>
-            <a href="#" className="hover:text-teal-600">
+            <a href="/shop" className="hover:text-teal-600">
               Shop
             </a>
-            <a href="#" className="hover:text-teal-600">
+            <a href="/product" className="hover:text-teal-600">
               Product
             </a>
-            <a href="#" className="hover:text-teal-600">
+            <a href="/pages" className="hover:text-teal-600">
               Pages
             </a>
-            <a href="#" className="hover:text-teal-600">
+            <a href="/about" className="hover:text-teal-600">
               About
             </a>
           </div>
