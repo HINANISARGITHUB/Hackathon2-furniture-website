@@ -12,6 +12,12 @@ const config: Config = {
         '3pct' : '3%'
       },
 
+     
+        plugins: [
+          require('@tailwindcss/typography'),
+        ],
+      
+
       fontFamily: {
         inter: ['Inter','sans-serif'],
       },

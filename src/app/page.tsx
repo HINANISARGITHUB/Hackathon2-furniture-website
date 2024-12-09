@@ -2,6 +2,9 @@ import Hero from "@/components/hero";
 import CompaniesLogo from "@/components/companieslogo";
 import Featuredproduct from "@/components/featuredproduct";
 import Footer from "@/components/footer";
+import Topcategories from "@/components/topcategories";
+import Ourproduct from "@/components/ourproduct";
+import Popularproduct from "@/components/popularproduct";
 
 export default function Home() {
   return (
@@ -9,6 +12,9 @@ export default function Home() {
       <Hero />
       <CompaniesLogo />
       <Featuredproduct />
+      <Topcategories />
+      <Popularproduct />
+      <Ourproduct/>
       <Footer />
     </div>
   );

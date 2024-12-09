@@ -5,7 +5,7 @@ import { PiShoppingCartSimpleLight } from "react-icons/pi";
 const Featuredproduct = () => {
   return (
     <div>
-      <h1 className="w-[290px] h-[35px] font-inter text-[32px] leading-[35.2px] ml-[20px] sm:ml-[40px] md:ml-[80px] mt-[40px]">
+      <h1 className="w-[290px] h-[35px] font-inter text-[32px] leading-[35.2px] ml-[20px] sm:ml-[40px] md:ml-[80px] mt-[40px] font-[600]">
         Featured Products
       </h1>
       <div className="mt-[40px] sm:mt-[60px] md:mt-[84px] flex flex-wrap gap-3 px-[20px] sm:px-[40px] md:px-[65px] justify-center">
