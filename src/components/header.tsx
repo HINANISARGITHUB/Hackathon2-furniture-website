@@ -41,10 +41,12 @@ const Navbar = () => {
           </div>
 
           {/* cart */}
-          <div className="relative hidden md:flex items-center lg:flex w-[120px] h-[44px] gap-[12px] rounded-[8px] bg-[#FFFFFF] px-[16px] py-[11px]">
+          <div className="sm: flex ml-72 md:flex items-center lg:flex w-[120px] h-[44px] gap-[12px] rounded-[8px] bg-[#FFFFFF] px-[16px] py-[11px]">
             <PiShoppingCartSimpleBold size ={22} className="text-gray-700" />
             <span className="font-inter font-[500] text-[17px] leading-[13.2px] mt-1">
+            <a href="/pages" className="hover:text-teal-600">
               cart
+            </a>
             </span>
 
             <Image
@@ -96,19 +98,19 @@ const Navbar = () => {
       {/* mobile menu */}
       {menuOpen && (
         <div className="md:hidden flex flex-col items-center bg-white py-3 space-y-2 text-gray-700">
-          <a href="#" className="hover:text-teal-600">
+          <a href="/" className="hover:text-teal-600">
             Home
           </a>
-          <a href="#" className="hover:text-teal-600">
+          <a href="/shop" className="hover:text-teal-600">
             Shop
           </a>
-          <a href="#" className="hover:text-teal-600">
+          <a href="/product" className="hover:text-teal-600">
             Product
           </a>
-          <a href="#" className="hover:text-teal-600">
-            Pages
+          <a href="/pages" className="hover:text-teal-600">
+         Pages
           </a>
-          <a href="#" className="hover:text-teal-600">
+          <a href="/about" className="hover:text-teal-600">
             About
           </a>
         </div>

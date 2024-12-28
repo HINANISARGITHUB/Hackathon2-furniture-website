@@ -9,8 +9,11 @@ const Featuredproduct = () => {
         Featured Products
       </h1>
       <div className="mt-[40px] sm:mt-[60px] md:mt-[84px] flex flex-wrap gap-3 px-[20px] sm:px-[40px] md:px-[65px] justify-center">
+      
         {/* 1st Product */}
+        <div className="w-[49px] h-[26px] bg-[#01AD5A] text-[#ffffff] text-center rounded-[4px] relative left-20 top-5">New</div> 
         <div className="w-[270px] h-[377px] rounded-[6px] hover:scale-105 transition-transform duration-300">
+        
           <Image
             src="/images/featureimage1.png"
             alt="cart"
@@ -32,7 +35,9 @@ const Featuredproduct = () => {
         </div>
 
         {/* 2nd Product */}
+       
         <div className="w-[270px] h-[377px] rounded-[6px] hover:scale-105 transition-transform duration-300">
+       
           <Image
             src="/images/featureimage2.png"
             alt="cart"
